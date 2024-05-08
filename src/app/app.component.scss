@@ -1,0 +1,49 @@
+.container {
+  margin: 20px;
+
+  .form-control {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .search-table, .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+  }
+
+  .btn {
+    color: white;
+    margin: 10px;
+    background-color: #662b7e;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    &:hover {
+      background-color: darken(#662b7e, 10%);
+    }
+  }
+
+  .btn-danger {
+    background-color: #ff4d4d; // Red for delete button
+    &:hover {
+      background-color: #ff6666;
+    }
+  }
+
+  .loading-indicator {
+    color: #662b7e;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+}
